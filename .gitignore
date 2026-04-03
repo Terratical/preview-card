@@ -33,7 +33,10 @@ lerna-debug.log*
 .DS_Store
 Thumbs.db
 
-# Design files (proprietary)
+# Design files (proprietary, kept on host)
+design/
+style-guide.md
+preview.jpg
 *.sketch
 *.fig
 *.xd

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --page-bg: #f4d04e;
+  --color-strong: #111111;
+  --color-muted: #6b6b6b;
+
+  --spacing-lg: 24px;
+  --spacing-md: 12px;
+  --spacing-sm: 8px;
+  --spacing-xs: 4px;
+
+  --line-height: 150%;
+  --letter-spacing: 0;
+
+  --link-color: #193cb8;
+}
+
+@font-face {
+  font-family: FigTree;
+  src: url("../public/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: FigTree-Italic;
+  src: url("../public/fonts/Figtree-Italic-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: "FigTree", sans-serif;
+}
+
+.link-outline:focus-visible {
+  @apply outline-2 outline-offset-2 outline-blue-800;
+}
+
+.link-hover:hover {
+  @apply text-(--link-color) underline underline-offset-4;
+}
