@@ -18,12 +18,12 @@
 
 @font-face {
   font-family: FigTree;
-  src: url("../public/fonts/Figtree-VariableFont_wght.ttf");
+  src: url("../fonts/Figtree-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: FigTree-Italic;
-  src: url("../public/fonts/Figtree-Italic-VariableFont_wght.ttf");
+  src: url("../fonts/Figtree-Italic-VariableFont_wght.ttf");
 }
 
 body {
